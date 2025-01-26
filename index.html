@@ -6,28 +6,33 @@
   <title>CSS Box Model</title>
   <style>
     /* Write your CSS code here */
-    div{
-      width: 200px;
+    div {
       height: 200px;
-      margin: none;
+      width: 200px;
     }
-     .div1{
+
+    p {
+      margin: 0;
+    }
+
+    #first {
       background-color: cadetblue;
       padding: 20px;
-      border-color: black 10px;
-     }
-     .div2{
+      border: 10px solid black;
+    }
+
+    #second {
       background-color: gold;
-      border: 10px 20px 10px 20px;
-     }
-     .div3{
+      border: solid black;
+      border-width: 20px 10px;
+      margin-left: 260px;
+    }
+
+    #third {
       background-color: indianred;
-      border: 10px;
-  
-     }
-     p{
-      margin: 0;
-     }
+      border: 10px solid black;
+      margin-left: 40px;
+    }
   </style>
 </head>
 
